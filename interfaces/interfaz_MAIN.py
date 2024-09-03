@@ -1,4 +1,6 @@
+import interfaces.interfazTaller1
 import interfazTaller1, interfazTaller2, interfazTaller3, interfazTaller4, interfazTaller5, interfazTaller6, interfazTaller7
+
 print("#"*70)
 print("#"*30,"Interfaz","#"*30)
 print("Presione 1 para elegir el primer taller")
@@ -13,4 +15,4 @@ opcion=input("Escoja el opcion: ")
 
 match opcion:
     case "1":
-
+        interfazTaller1.main()
