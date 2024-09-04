@@ -21,7 +21,9 @@ def velocidad(velocidad, tipo):
     elif(tipo== 'm/s_to_km/h'):
         valor = velocidad*3.6
     else:
-        print("Escriba bien")
+        print("No se encontró el tipo de conversion de velocidad, copie y pegue sin espacios lo que aparece")
+        tipo = input("Digite km/h_to_m/s Ó m/s_to_km/h. Copie y pegue SIN el punto\n")
+        velocidad(velocidad, tipo)
 
 
 '''Tercer punto
@@ -31,7 +33,7 @@ Dandonos la velocidad inicial, aceleración y tiempo.
 s= ut + (1/2)*a*t**2'''
 
 def MRUA(velinicial, ace, t):
-    s= t + (1/2)*ace*t**2
+    s= velinicial * t + (1/2)*ace*t**2
 
     return s
 
@@ -46,7 +48,7 @@ def suma_vectores(vector1, vector2, tamano):
 
     return vector3
 
-'''Cuarto punto
+'''Quinto punto
 Escribe un Programa que calcule el producto escalar de dos vectores y determine el angulo entre ellos.
 Utilizando la formula del coseno del anguló'''
 
@@ -63,7 +65,8 @@ def escalar(vector1, vector2, tamano):
 #todo hacer lo del angulo
 
 
-'''Quinto punto
+
+'''Sexto punto
 Hacer un scrip para calcular el alcance(R) y la altura maxima(H) alcanzada 
 por un proyectil lanzado a una velocidad inicial(Vo) a un angulo(teta) con la horizontal.
 Ignore la resistencia al aire
