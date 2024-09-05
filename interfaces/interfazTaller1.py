@@ -2,10 +2,9 @@ import Primer_Taller, interfaz_MAIN
 import os
 
 def main():
-    #colocar un sys borrar pa borrar la interfaz anterior
     os.system("cls")
     print("Hola este es el primer taller, se trata de temas basicos de python, más que todo logica")
-    print("Se llama:\n FISICA COMPUTAIONAL EN PYTHON\n")
+    print("Se llama:\n FISICA COMPUTACIONAL EN PYTHON\n")
     print("consta de 7 puntos.")
     print("Elige 1 si quieres acceder al punto 'calculo de caida libre'")
     print("Elige 2 si quieres acceder al punto 'conversion de unidades de velocidad'")
