@@ -3,13 +3,13 @@ import numpy as np
 #1) Cree el siguiente vector A= [2, 3,5, 1, 4 ,7 9, 8, 6, 10]
 
 A = np.array([2, 3,5, 1, 4 ,7, 9, 8, 6, 10])
-#print(A)
+print(A)
 
 
 #2) Cree un vector B que contenga los elementos desde el 11 hasta el 20 (utilice subscripts)
 
 B = np.arange(11,21)
-#print(B)
+print(B)
 
 
 #3) Componer un vector C formado por los vectores A y B en la misma fila respectivamente
@@ -58,19 +58,19 @@ print("La suma de los elementos del vector C es:",np.sum(C))
 #11) Cree un vector D a partir del vector C con los elementos mayores que 5
 
 D = C[C>5]
-#print(D)
+print(D)
 
 
 #12) Cree un vector E a partir del vector C con los elementos mayores que 5 y menores que 15
 
 E= C[(C>5) & (C<15)]
-#print(E)
+print(E)
 
 
 #13) Cambie los elementos 5 y 15 elemento del vector C por ‘7’
 
 C[(C==5) | (C==15)] = 7
-#print(C)
+print(C)
 
 #14) Determine la moda del vector C
 
@@ -87,8 +87,8 @@ print(C)
 
 #16) Multiplique el vector C por 10
 
-#C = C*10
-#print(C)
+C = C*10
+print(C)
 
 
 #17) Cambie los elementos del 6 al 8 de la matriz C por 60, 70 y 80 respectivamente
