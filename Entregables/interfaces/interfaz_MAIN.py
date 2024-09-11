@@ -1,5 +1,4 @@
-import interfaces.interfazTaller1
-import interfazTaller1, interfazTaller2, interfazTaller3, interfazTaller4, interfazTaller5, interfazTaller6, interfazTaller7
+import interfazTaller1
 import os
 def main():
     print("#"*70)

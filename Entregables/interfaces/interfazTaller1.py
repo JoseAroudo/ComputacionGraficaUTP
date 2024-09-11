@@ -1,4 +1,5 @@
-import Primer_Taller, interfaz_MAIN
+import interfaz_MAIN
+from Entregables import Primer_Taller
 import os
 
 def main():
@@ -20,28 +21,28 @@ def main():
         case 1:
             os.system("cls")
             alt= float(input("Ingrese la altura del punto "))
-            resultado=Primer_Taller.caida_libre(alt)
+            resultado= Primer_Taller.caida_libre(alt)
             print(f"El tiempo que tarda el objeto desde una altura de {alt}m es: {resultado:.2f}s")
 
         case 2:
             os.system("cls")
             vel = float(input("Digite el velocidad del punto\n"))
             tipo = input("Digite km/h_to_m/s Ó m/s_to_km/h\n")
-            Primer_Taller.velocidad(vel,tipo)
+            Primer_Taller.velocidad(vel, tipo)
 
         case 3:
             os.system("cls")
             vel = float(input("Digite el velocidad inicial del objeto\n"))
             aceleracion= float(input("Digite qué aceleración se le aplicó a este objeto"))
             tiempo=float(input("Digite que está el objeto en el aire\n"))
-            Primer_Taller.MRUA(vel,aceleracion,tiempo)
+            Primer_Taller.MRUA(vel, aceleracion, tiempo)
 
         case 4:
             os.system("cls")
             vector1= list(input("Ingrese el primer vector\n"))
             vector2= list(input("Ingrese el segundo vector\n"))
             tamano= int(input("Ingrese el tamano de los dos vectores\n"))
-            Primer_Taller.suma_vectores(vector1,vector2,tamano)
+            Primer_Taller.suma_vectores(vector1, vector2, tamano)
 
         case 5:
             os.system("cls")
